@@ -1,0 +1,34 @@
+/* helpful css file https: //htmlcheatsheet.com/css/ */
+
+/* Per tag */
+
+h1 {
+    color: blue;
+}
+
+/* Per ID */
+
+#products 
+.first {
+    color: red;
+}
+
+/* Per Class, obs navigation is the id class name*/
+
+.navigation nav span {
+    color:pink;
+}
+
+.toy-baby {
+    color: green;
+}
+
+/* Combining selectors */
+.toy-baby div p {
+    color:brown;
+}
+
+/* Div name with childrens only, if there is more divs inside div classname it will only get the first childrens */
+.classname > p {
+    color: greenyellow;
+}

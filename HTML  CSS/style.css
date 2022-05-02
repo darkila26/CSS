@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* responsive background*/
+html {
+    background: url(./backgroundmain.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+    margin: 0 auto;
+        background-color: rgb(219, 216, 184)
+}
+
+.form  button {
+    width: 15%;
+    margin: 0 auto;
+    background-color: rgb(219, 216, 184)
+}
